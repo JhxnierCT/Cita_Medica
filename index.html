@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas Medicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="encabezado">
+        <h1>Citas Medicas</h1>
+        <p>Agenda tu cita</p>
+</header>
+<nav class="menu">
+    <ul>
+        <li><a href="#seccion 1">INICIO</a></li>
+        <li><a href="#seccion 2">SERVICIOS</a></li>
+        <li><a href="#seccion 3">CONTACTOS</a></li>
+    </ul>
+</nav>
+<main class="datos">
+    <h1>Formulario para agendar citas</h1>
+    <h4>Complete el siguiente formulario para agendar una cita:</h4>
+    <section class="formulario">
+    <div>
+        <form action="enviar-datos" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        </form>
+    </div>
+    <p>                                                            </p>
+    <div>
+        <form action="enviar-datos" method="post">
+        <label for="nombre">Correo Electronico</label>
+        <input type="text" id="correo" name="correo">
+        </form>
+    </div>
+    <p>                                                             </p>
+    <form>
+        <label>Fecha de la cita:</label>
+        <input type="date" name="fecha" id="fecha">
+    </form>
+    <p>                                                             </p>
+    <button id="agendar-cita">Agendar cita </button>
+</section>
+    <section class="suma">
+        <h1>ejercicio de calculo</h1>
+        <h4>ingrese dos numeros para sumar:</h4>
+        <div>
+            <input type="number" id="num1" name="num1">
+            <input type="number" id="num2" name="num2">
+            <button type="button" id="calcular">calcular</button>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+<p>&copy;Jhonier Cotaya</p>
+</footer>
+<script src=".js"></script>
+</body>
+</html>

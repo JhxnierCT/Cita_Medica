@@ -1,0 +1,48 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.encabezado{
+    background-color: rgb(22, 148, 106);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+.menu{
+    background-color: rgb(18, 190, 133);
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+.menu ul li a{
+    color: black;
+    font-weight: bold;
+}
+.menu ul li{
+
+    display: inline;
+    margin: 10px;
+}
+.datos{
+    text-align: left;
+}
+.suma {
+     padding: 30px;
+     margin: 20px;
+     background-color: antiquewhite;  
+
+}
+.formulario{
+    padding: 30px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
